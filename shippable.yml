@@ -1,0 +1,6 @@
+---
+build:
+  ci:
+    - docker pull resin/resin-base:shippable || true
+    - docker build --tag resin/resin-base:shippable .
+
